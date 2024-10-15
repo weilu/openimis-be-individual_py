@@ -52,7 +52,7 @@ def get_global_schema_fields():
 @permission_classes([check_user_rights(IndividualConfig.gql_individual_create_perms, )])
 def download_template_file(request):
     try:
-        base_fields = ['first_name', 'last_name', 'dob', 'id']
+        base_fields = ['first_name', 'last_name', 'dob', 'location_name', 'id']
         extra_fields = get_global_schema_fields()
         all_fields = base_fields + extra_fields
         template_df = pd.DataFrame(columns=all_fields)
