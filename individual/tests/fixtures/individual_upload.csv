@@ -1,0 +1,7 @@
+first_name,last_name,dob,location_name,individual_role,recipient_info,group_code
+Mia,Foo,1989-01-01,Washington DC,HEAD,1,AA
+Bob,Foo,1988-01-01,Washington DC,SPOUSE,1,AA
+Eric,Foo,2020-01-01,Washington DC,SON,1,AA
+Ann,Foo,2020-01-01,Washington DC,DAUGHTER,1,AA
+Michelle,Bar,1990-01-01,Fairfax,HEAD,0,BB
+
